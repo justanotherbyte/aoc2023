@@ -24,7 +24,7 @@ for idx, game in enumerate(games, start=1):
 
     power = 1
     for colour, counts in colours.items():
-        highest = list(sorted(counts, reverse=True))[0]
+        highest = max(counts)
         power *= highest
     
     total += power
