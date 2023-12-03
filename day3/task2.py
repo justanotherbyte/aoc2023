@@ -75,6 +75,4 @@ for row_idx, row in enumerate(sanitized_lines):
             multiplied = adjacents[0] * adjacents[1]
             total += multiplied
 
-            
-
 print(total)
