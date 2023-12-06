@@ -66,8 +66,6 @@ done_seeds = []
 new_seed_nums = []
 new_seed_sizes = []
 
-
-
 flag = True
 for seed in seed_numbers:
     if flag:
